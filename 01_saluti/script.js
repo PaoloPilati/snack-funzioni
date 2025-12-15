@@ -8,8 +8,12 @@ function showMessage() {
   return `Ciao ${userName}!`;
 }
 
+//arrow function
+
+//const showMessage = () => `Ciao ${userName}!`;
+
 // Invoca la funzione qui e stampa il risultato in console
-showMessage();
+
 console.log(showMessage());
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
