@@ -4,8 +4,8 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function showMessage() {
-  return `Ciao ${userName}!`;
+function showMessage(nome) {
+  return `Ciao ${nome}!`;
 }
 
 //arrow function
@@ -14,6 +14,6 @@ function showMessage() {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(showMessage());
+console.log(showMessage(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
