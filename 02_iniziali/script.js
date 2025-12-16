@@ -7,6 +7,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 function firstLetter(array) {
     return array.map (name => name[0]);
+    //name => name [0] è una arrow function; la funzione estesa sarebbe 
+    // function firstLetter(array) {
+    // return array.map (function(name) {
+    // return name[0];
 }
 
 //Arrow function
